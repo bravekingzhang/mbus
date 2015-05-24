@@ -7,7 +7,7 @@ import android.app.Application;
  */
 public class BusApplication extends Application {
 
-    public static String isNotFristRun = "isfirstrum";
+    public static String isNotFristRun = "isfirstrun";
 
     @Override
     public void onCreate() {
