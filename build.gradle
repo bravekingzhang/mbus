@@ -5,7 +5,7 @@ android {
     buildToolsVersion "20.0.0"
 
     defaultConfig {
-        applicationId "com.tencent.hoollyzhang.mbus"
+        applicationId "com.brzhang.mbus"
         minSdkVersion 17
         targetSdkVersion 21
         versionCode 1
