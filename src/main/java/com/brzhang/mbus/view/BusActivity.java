@@ -57,7 +57,7 @@ public class BusActivity extends SherlockActivity implements BusListener{
             }
         });
         busLineName = (TextView) findViewById(R.id.bus_coming_bus_name);
-        busLineName.setText(""+mBus.getName());
+        busLineName.setText(""+mBus.getName()+"  "+mBus.getStationName());
     }
 
     /**
