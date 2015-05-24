@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.Sherlock.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="horiznal_dividor">
+        <item name="android:src">@color/divider_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+    </style>
+
+</resources>

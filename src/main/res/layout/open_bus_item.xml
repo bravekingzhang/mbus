@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/open_bus_line_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_xxl"
+        android:textColor="@color/font_color_tuhao_king"
+        android:text="m355"/>
+    <TextView
+        android:layout_below="@+id/open_bus_line_name"
+        android:id="@+id/open_bus_line_station_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/font_color_gaoduan_black"
+        android:text="古树-流淌"/>
+    <TextView
+        android:layout_toRightOf="@+id/open_bus_line_name"
+        android:id="@+id/open_bus_line_time_des"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_alignBottom="@+id/open_bus_line_name"
+        android:text="6:00-22:00"/>
+
+    <TextView
+        android:id="@+id/open_bus_line_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:text="+ 添加"
+        android:background="@drawable/blue_btn"/>
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        style="@style/horiznal_dividor"/>
+
+</RelativeLayout>

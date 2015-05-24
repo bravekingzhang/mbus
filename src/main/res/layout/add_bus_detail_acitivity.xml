@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/add_bus_detail_line_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/font_color_tuhao_king"
+        android:textSize="@dimen/font_size_xxl"
+        android:text="M355"/>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请选择乘车地点:"/>
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:id="@+id/add_bus_detail_line_spinner"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/add_bus_detail_line_add"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="8dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:background="@drawable/blue_btn"
+        android:layout_height="wrap_content"
+        android:text="果断添加该公交"
+        android:textColor="@color/font_color_white"/>
+
+
+
+</LinearLayout>

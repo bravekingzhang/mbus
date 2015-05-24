@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/bus_index_bus_item_content_ll"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bus_index_bus_item_bus_name_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="m355"
+        android:textColor="@color/font_color_tuhao_king"
+        android:textSize="@dimen/font_size_xxl"/>
+    <TextView
+        android:id="@+id/bus_index_bus_item_bus_station_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="西乡路口"
+        android:textColor="@color/font_color_gaoduan_black"
+        android:textSize="@dimen/font_size_s"/>
+
+</LinearLayout>

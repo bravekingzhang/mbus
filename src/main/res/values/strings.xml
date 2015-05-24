@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">专属公交</string>
+
+    <string name="action_settings">添加公交</string>
+    <string name="bus_title">专属公交</string>
+    <string name="choose_bus_error">您的请求有误，请重新选择！</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="font_color_gaoduan_black">#D3130F0F</color>
+    <color name="font_color_white">#FFFFFFFF</color>
+    <color name="font_color_tuhao_king">#FFD3A809</color>
+    <color name="font_color_wuteng_blue">#FF1FA6BC</color>
+</resources>

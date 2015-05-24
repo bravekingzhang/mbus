@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.beardedhen.androidbootstrap.utils.AutoResizeTextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/coming_bus_tv_name"
+    android:text="粤B551542"
+    android:textSize="25sp"
+    android:textColor="#ff234323"
+    android:gravity="center_horizontal"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:padding="10dp">
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="距本站还有："
+            android:textStyle="italic"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/comming_bus_distance"
+            android:layout_toRightOf="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="300"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:textColor="#ffff0000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/text2"
+            android:layout_toRightOf="@id/comming_bus_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="米"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_toLeftOf="@+id/comming_bus_time"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="到站还有："
+            android:textStyle="italic"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/comming_bus_time"
+           android:layout_alignParentRight="true"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1分20秒"
+            android:textColor="#ffff0000"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        </RelativeLayout>
+    <ImageView
+        android:layout_marginLeft="5dp"
+        style="@style/horiznal_dividor"
+        />
+</LinearLayout>
